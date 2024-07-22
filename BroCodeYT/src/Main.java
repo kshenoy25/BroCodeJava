@@ -3,6 +3,8 @@ public class Main {
         // object = an instance of a class that may contain attributes and methods
         // example : (pen, desk, book, water bottle)
         
+        // calling car class
+
 
         Car myCar1 = new Car();
         Car myCar2 = new Car();
