@@ -1,4 +1,4 @@
-public class Main {
+public class MainConstructor {
 
     // Constructor = special method that is called when an object is instantiated (created)
     //               they allow us to construct object that have varying attributes
