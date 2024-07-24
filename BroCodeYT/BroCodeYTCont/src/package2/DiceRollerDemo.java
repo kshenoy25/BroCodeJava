@@ -3,7 +3,7 @@ package package2;
 import java.util.Random;
 
 public class DiceRollerDemo {
-    // global variables : outsid of the method
+    // global variables : outside of the method
     Random random;
     int number = 0;
 
