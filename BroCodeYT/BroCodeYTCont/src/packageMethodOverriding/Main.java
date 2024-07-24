@@ -6,5 +6,10 @@ public class Main {
         //                     which is already present in parent class.
         //                     done so that a child class can give its own implementation
 
+        Animal animal = new Animal();
+        Dog dog = new Dog();
+        //dog.speka();
+        dog.speak();
+
     }
 }
