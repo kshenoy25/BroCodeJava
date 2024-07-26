@@ -1,4 +1,4 @@
-package packageGenerics;
+package packageGenericsMethod;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,15 +16,22 @@ public class Main {
         //displayArray(intArray);
         //displayArray(doubleArray);
         //displayArray(charArray);
+        System.out.println(getFirst(intArray));
+        System.out.println(getFirst(doubleArray));
+        System.out.println(getFirst(charArray));
+        System.out.println(getFirst(stringArray));
 
     }
-
-    public static <Thing>void displayArray(Integer[] array) {
-        for (Integer x : array) {
-            System.out.print(x + "");
-
+    // generic method creation
+    // T = 'Thing'
+    public static <T> void displayArray(T[] array) {
+        for (T x : array) {
+            System.out.print(x+" ");
         }
         System.out.println();
+    }
+    public static <T> T getFirst (T[] array){
+            return array[0];
     }
 
     /*
