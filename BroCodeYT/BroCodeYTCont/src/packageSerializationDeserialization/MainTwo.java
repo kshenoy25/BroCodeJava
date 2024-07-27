@@ -2,6 +2,7 @@ package packageSerializationDeserialization;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectStreamClass;
 
 public class MainTwo {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
@@ -34,7 +35,10 @@ public class MainTwo {
 
         System.out.println(user.name);
         System.out.println(user.password);
-        user.sayHello();
+        //user.sayHello();
+
+        long serialVersionUID = ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID();
+        System.out.println(serialVersionUID);
 
 
     }
