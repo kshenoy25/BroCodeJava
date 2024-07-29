@@ -3,7 +3,7 @@ package packageMultiThreading;
 public class MultiThread extends Thread {
     @Override
     public void run(){
-        for (int i = 10; i > 10; i--){
+        for (int i = 10; i > 0; i--){
             System.out.println("Thread #1 " + i);
             try {
                 Thread.sleep(1000);
@@ -11,7 +11,7 @@ public class MultiThread extends Thread {
                 throw new RuntimeException(e);
             }
         }
-        System.out.println("Thread #1 is finished: ");
+        System.out.println("Thread #1 is finished! ");
 
     }
 }
