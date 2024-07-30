@@ -1,4 +1,4 @@
-package package2;
+package packageVarScope;
 
 public class MainVariableScope {
 

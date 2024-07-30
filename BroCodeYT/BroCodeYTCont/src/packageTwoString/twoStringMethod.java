@@ -1,4 +1,4 @@
-package package5;
+package packageTwoString;
 
 public class twoStringMethod {
 

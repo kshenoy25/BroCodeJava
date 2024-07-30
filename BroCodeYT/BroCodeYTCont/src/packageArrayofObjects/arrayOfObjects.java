@@ -1,4 +1,4 @@
-package package4;
+package packageArrayofObjects;
 
 public class arrayOfObjects {
     public static void main(String[] args) {
