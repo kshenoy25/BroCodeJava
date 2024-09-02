@@ -8,6 +8,8 @@ public class Main {
         //                  An exception in one thread will not interrupt other threads
         //                  Useful for multiple clients, multiplayer games, or other mutually independent tasks
         //                  Two ways to create thread: extending Thread class or implementing the runnable interface
+        //                  Runnable-interface is to be implemented by a class whose instances are intended to be executed
+        //                  by a thread
 
         MultiThread thread1 = new MultiThread();
 
