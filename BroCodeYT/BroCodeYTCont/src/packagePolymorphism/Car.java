@@ -1,4 +1,4 @@
-package packagePolynorhpism;
+package packagePolymorphism;
 
 public class Car extends Vehicle{
     @Override
